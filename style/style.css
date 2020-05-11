@@ -1,0 +1,446 @@
+*{
+	
+ -webkit-user-select: none;  /* Chrome all / Safari all */
+ -moz-user-select: none;     /* Firefox all */
+ -ms-user-select: none;      /* IE 10+ */
+ user-select: none;          /* Likely future */      
+
+}
+
+.p {
+    font-size: 15px;
+    color: red;
+    margin: 0 12px 0 0;
+}
+
+
+body{
+    background: url("../img/wallpaper-2543834.jpg") scroll center;
+overflow-x: hidden;
+    opacity: 0.8;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: Consolas,sans-serif;
+    letter-spacing: 5px;
+    color: transparent;
+}
+h1:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #e1e1e1;
+    overflow: hidden;
+    border-right: 1px solid #9e43cc;
+    animation: type 5s   steps(40) infinite;
+    white-space: nowrap;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+
+
+}
+
+
+
+
+
+::placeholder{
+    color: #bbbbbb;
+    font-family: Cabin,sans-serif;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 30px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+@media only screen and (max-width: 768px) {
+    #sponsors{
+        display: none;
+    }
+    .skill_divider6{
+        margin-top: 20px;
+    }
+
+    .divider{
+        text-align: center;
+    }
+
+    .descript{
+        color: #777777;
+       font-family:Cabin,sans-serif;font-size:16px;
+        text-align: center;
+width: 80%;
+        margin: 0 auto;
+    }
+    .skill_icon_p{
+        text-align:center;
+    }
+    .skill_divider{
+        margin:0 auto ;width: 60%;
+    }
+    .person_img_pull{
+        display: none;
+    }
+    .person_img_push{
+        display: block;
+    }
+    .person_img{
+        margin: 0 auto;
+     width: 35%;
+    }
+    .person_aw_discript_div{
+        margin-top:2vw;text-align: center;width: 100%;
+    }
+    .header_menu li{
+        font-size: 17px;
+        text-align: center;
+        display: block;
+    }
+    .can_you{
+        font-family:'Cabin',sans-serif;font-size: 18px;color: #ffffff
+    }
+    .yup_we{
+        font-weight:700;text-transform:uppercase;font-family:'Cabin',sans-serif;font-size:28px;color: #ffffff
+    }
+    .escape_heading{
+        font-family:'Fredoka One',sans-serif;font-size: 20px;color: #ffffff;margin: 3.5vw
+    }
+    .lrn_mr{
+        cursor: pointer; margin-top: 2vw;margin-bottom: 7.5vw; display:inline-block;padding:1vw 5vw; border:2px solid white; border-radius: 10%; font-weight:400;font-family:'Cabin',sans-serif;font-size: 12px;color: #ffffff;
+    }
+    .title_first{
+        font-family:Cabin,sans-serif;
+        font-size: 30px;color: #222222;
+    }
+    .skill_icon_p{
+        font-family:Cabin,sans-serif;font-weight:400;font-size:20px;color: #222222;
+    }
+    .skill_icon_p_sm{
+        text-align: center;
+        font-family:Cabin,sans-serif;font-size:15px;color: #777777;
+    }
+    .skill_icon{
+        color: white;
+        background-color: #222222;
+        border-radius: 100%;
+        padding: 2vw;
+        font-size: 30px;
+        transition: ease-in-out 0.3s;
+    }
+    .see_what{
+        line-height:0;font-family: Cabin,sans-serif;font-size:12px;color: #777777;
+    }
+    #person_margin{
+        margin-top: 20px;
+    }
+    .person_aw_discript{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 18px;
+        font-family: Cabin,sans-serif;
+        color: #777777;
+    }
+    .person_aw_discript_under{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12px;
+        font-family: Cabin,sans-serif;
+        color: #7690c5;
+    }
+    .amazing_div{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .amazing_name{
+        font-weight: 900;
+        font-size: 14px;
+        font-family: Cabin,sans-serif;
+        color: #ffffff;
+    }
+    .amazging_proff{
+        line-height: 0.5px;
+        font-size: 12px;
+        font-family: Cabin,sans-serif;
+        color: #ebebeb;
+    }
+    .amazing_url{
+        margin-left: -10vw;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .face{
+        padding: 12px 6px;
+    }
+    .pin{
+        padding: 12px 2px;
+    }
+    .amazing_url li:hover{
+        color: black;
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+    .amazing_url li {
+        transition: all 0.5s;
+        cursor: pointer;
+        font-size: 5vw;
+        color: #ffffff;
+        border: 3px solid white;
+        border-radius: 100%;
+        padding: 7px 10px;
+        list-style-type: none;
+        display: inline;
+        margin: 2px 2vw;
+    }
+    .footer_icon{
+        margin: 15px;
+        color: #ffffff;
+        font-size: 40px;
+    }
+    .dont_be{
+        font-family: Cabin,sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    .footer_input{
+        margin: 20px 25px 20px 25px;
+        width: 90%;
+        height: 50px;
+    }
+    .big_input{
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer_input{
+        padding: 20px;
+        margin: 20px 25px 20px 25px;
+        width: 90%;
+        height: 50px;
+    }
+    .big_input{
+        height: 200px;
+    }
+    .footer_icon{
+        margin: 15px;
+        color: #ffffff;
+        font-size: 40px;
+    }
+    .dont_be{
+        font-family: Cabin,sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    .amazing_url{
+        margin-left: 2vw;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .face{
+        padding: 12px 4px;
+    }
+    .pin{
+        padding: 12px 2px;
+    }
+    .amazing_url li:hover{
+        color: black;
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+   .amazing_url li {
+       transition: all 0.5s;
+       cursor: pointer;
+       font-size: 1.375vw;
+       color: #ffffff;
+       border: 3px solid white;
+       border-radius: 100%;
+       padding: 0.45vw 0.6375vw;
+       list-style-type: none;
+       display: inline;
+       margin: 2px 1vw;
+   }
+    .amazging_proff{
+        line-height: 0.5px;
+        font-size: 16px;
+        font-family: Cabin,sans-serif;
+        color: #ebebeb;
+    }
+    .amazing_name{
+        font-weight: 900;
+        font-size: 18px;
+        font-family: Cabin,sans-serif;
+        color: #ffffff;
+    }
+    .amazing_div{
+        text-align: center;
+    }
+    .amazing_prs{
+        width:70%;border: solid white 5px;
+    }
+    .person_aw_discript_under{
+        font-size: 16px;
+        font-family: Cabin,sans-serif;
+        color: #3e3e3e;
+    }
+    .person_aw_discript{
+        font-size: 22px;
+        font-family: Cabin,sans-serif;
+        color: #777777;
+    }
+    #person_margin{
+        margin-top: 100px;
+    }
+    #sponsors{
+        display: block;
+    }
+    .see_what{
+        line-height:0;font-family: Cabin,sans-serif;font-size:18px;color: #777777;
+    }
+    .skill_icon{
+        color: white;
+        background-color: #222222;
+        border-radius: 100%;
+        padding: 2vw;
+        font-size: 2.5vw;
+        transition: ease-in-out 0.3s;
+    }
+    .skill_icon_p_sm{
+        font-family:Cabin,sans-serif;font-size:16px;color: #777777;
+    }
+    .skill_icon_p{
+        font-family:Cabin,sans-serif;font-weight:400;font-size:24px;color: #222222;
+    }
+    .descript{
+       color: #777777;
+        margin-top:1vw;font-family:Cabin,sans-serif;font-size:19px;
+    }
+    .title_first{
+        font-family:Cabin,sans-serif;font-size:60px;color: #222222;
+    }
+
+    .lrn_mr{
+        cursor: pointer; margin-top: 2vw;margin-bottom: 7.5vw; display:inline-block;padding:1vw 5vw; border:2px solid white; border-radius: 10%; font-weight:400;font-family:'Cabin',sans-serif;font-size: 24px;color: #ffffff;
+    }
+    .escape_heading{
+        font-family:'Fredoka One',sans-serif;font-size: 50px;color: #ffffff;margin: 2.5vw
+    }
+    .yup_we{
+        font-weight:700;text-transform:uppercase;font-family:'Cabin',sans-serif;font-size:65px;color: #ffffff
+    }
+    .can_you{
+        font-family:'Cabin',sans-serif;font-size: 35px;color: #ffffff
+    }
+    .header_menu li{
+        font-size: 1.3vw;
+        display: inline;
+    }
+    .person_aw_discript_div{
+        margin: 4vw;text-align: left;width: 60%;
+    }
+    .person_img_pull{
+        display: block;
+    }
+    .person_img_push{
+        display: none;
+    }
+    .skill_descrip{
+        width: 60%;
+    }
+    .skill_divider{
+        margin:  20px 0;
+    }
+    .skill_divider6:hover{
+        transition: ease 0.4s;
+        border-radius: 30%;
+        background-color: #dcdcdc;
+    }
+
+}
+.amazing_div img{
+    margin: 0 auto;
+}
+.logos_firm:hover{
+    filter:brightness(50%);
+}
+.person_aw_discript_div
+{
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid #e2e2e2;
+}
+.header_menu li{
+    cursor: pointer;
+    color: #ffffff;
+    margin: 0.5vw;
+    padding: 6px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Cabin",sans-serif;
+  border-radius: 0 0 40% 40% ;
+}
+.header_menu li:hover{
+    color: #47d2ee;
+    transition: all 0.5s ;
+}
+
+.header_menu{
+    margin: 3.5vw;
+}
+
+.lrn_mr:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ;
+}
+.divider{
+    margin-top: 5vw;
+}
+.divider:hover{
+    transition: all 0.5s;
+    background-color: #f6f6f6;
+}
+
+
+.skill_icon:hover{
+    color: #222222;
+    background-color: #ffffff;
+    transition: ease-in-out 0.3s;
+}
+.skill_divider6{
+    transition: ease 0.4s;
+}
+
+
+.title_sec{
+    font-weight:900;
+}
+.white{
+    color: white;
+}
